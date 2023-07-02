@@ -1,0 +1,94 @@
+body,
+html{
+    margin: 0;
+    -webkit-font-smoothing:antialiased;
+}
+
+.animate2{
+  animation: animate2 1s linear  infinite ;
+  -webkit-animation:animate2 1s linear  infinite;
+  font-size: 50px;
+}
+
+.name:hover{
+    color:rgb(0, 91, 143) ;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+.main{
+    opacity: 1;
+    transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+}
+
+.animate{ 
+    animation:animate  1s linear ; 
+    -webkit-animation:animate  1s linear ;
+     animation-fill-mode: both;
+}
+
+.animate1{
+    animation:animate1  1s linear ;
+    -webkit-animation:animate1  1s linear ;
+    animation-fill-mode: forwards;
+}
+@keyframes animate {
+    from{
+        opacity: 1;
+    }
+  
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes animate1 {
+    from{
+        font-size: initial;
+    }
+  
+    to{
+        font-size: xx-large;
+    }
+}
+
+@keyframes animate2 {
+    from{
+    color: rgb(255, 255, 255);
+    }
+  
+    to{
+        color: rgb(0, 91, 143);
+    }
+}
+
+
+.hidden{
+    display: none;
+}
+
+.font-exo{
+    font-family: 'Exo 2', sans-serif;
+}
+.font-monoton{
+    font-family: 'Monoton', cursive;
+}
+/* .main{
+    font-size: larger;
+    font-style: italic;
+    letter-spacing: 10px;
+    line-height: 1.5;
+} */
+
+.center-window{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
