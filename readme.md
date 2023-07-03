@@ -1,6 +1,6 @@
-# simple portfolio three.js css tailwind
+# simple portfolio three.js css tailwind (☞ﾟヮﾟ)☞
 
-## Setup
+## Setup ←_←
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
 
@@ -14,7 +14,7 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
-### using
-```bash
-#you can edit color and color raycaster and width and hight by control panel(dat.gui)
-# just write in terminal (npm run dev) and open local link in browser to watch
+---
+### using ☜(ﾟヮﾟ☜)
+ + you can edit color and color raycaster and width and hight by control panel(dat.gui)
+ + just write in terminal (npm run dev) and open local link in browser to watch
